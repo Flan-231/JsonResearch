@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+{% extends "layout.html" %}
+
+{% set active_page = "index" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <!--page content-->
+ 
 <html>
 <head>
   
@@ -21,7 +29,7 @@
       <a class="nav-link" href="index.html">Link 1</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
+      <a class="nav-link" href="#">layout.html</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Link 3</a>
@@ -46,4 +54,6 @@
 
 </body>
 </html>
+
+{% endblock %}
 
