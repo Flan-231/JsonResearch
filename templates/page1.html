@@ -7,4 +7,15 @@
 {% block content %}
     <!--page content-->
     <h1>Page 1</h1>
+    
+    <h3>Select a Video game.</h3>  
+   
+     <form action='/p1'>
+      <select name="Title" id="Title">
+        {{ options }}
+      </select>
+      <input type="submit" Value ="Rating">
+    </form>
+
 {% endblock %}
+
