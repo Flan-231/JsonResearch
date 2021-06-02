@@ -38,7 +38,7 @@ def render_page2():
     
 def get_release_date():
     with open ('video_games.json') as Videogames_data:
-    game= json.load(Video_games_data)
+        game= json.load(Video_games_data)
     
 
 if __name__ == '__main__':
